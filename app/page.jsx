@@ -65,6 +65,18 @@ export default function Home() {
           중부대학교 정보보호학과 20학번 박준형의 블로그입니다.
         </p>
       </div>
+
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
+        <Link
+          href="https://vercel.com/dashboard"
+          className="text-xl text-blue-700 font-bold"
+        >
+          Parkjoonhyeong Vercel
+        </Link>
+        <p className="mb-2">
+          중부대학교 정보보호학과 20학번 박준형의 Vercel입니다.
+        </p>
+      </div>
     </>
   )
 }
