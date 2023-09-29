@@ -1,4 +1,5 @@
 import React from 'react'
+// import instagram from "../../src/image/instagram.jpeg"
 
 const DashboardPage = () => {
   const instagramProfileUrl = 'https://www.instagram.com/junbr0_01/'
@@ -15,7 +16,9 @@ const DashboardPage = () => {
         전화번호: 010-8806-3984 <br />
         주소: 서울특별시 영등포구
       </p>
-
+      <div style={{ width: '150px', height: '150px' }}>
+        <img src="/instagram.jpeg" alt="Instagram" />
+      </div>
       <a href={instagramProfileUrl} className="text-blue-500 underline">
         Instagram
       </a>
