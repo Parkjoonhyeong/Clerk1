@@ -19,7 +19,11 @@ const DashboardPage = () => {
       <div style={{ width: '150px', height: '150px' }}>
         <img src="/instagram.jpeg" alt="Instagram" />
       </div>
-      <a href={instagramProfileUrl} className="text-blue-500 underline">
+      <a
+        href={instagramProfileUrl}
+        className="text-blue-500 underline"
+        style={{ marginLeft: '35px' }}
+      >
         Instagram
       </a>
     </div>
